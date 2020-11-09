@@ -1,0 +1,15 @@
+nr woho() {
+nr a, i;
+bool x = true;
+get a;
+i = a/2;
+while i > 2 & x {
+if a % i == 0 {
+x = false;
+}
+}
+if x == true{
+print "prime";
+nono{ print "not";
+}
+}
