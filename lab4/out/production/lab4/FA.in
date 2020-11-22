@@ -1,0 +1,13 @@
+Set of states:
+p,q,r
+Start states:
+p
+Alphabet:
+a,b
+Transitions:
+p,a=q
+q,a=q
+q,b=r
+p,b=r
+Final states:
+r
